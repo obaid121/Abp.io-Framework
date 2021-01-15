@@ -1,0 +1,37 @@
+{
+  "Id": "442c6937-6212-41ff-8594-63ca33157d72",
+  "Name": "Book",
+  "OriginalName": "Book",
+  "NamePlural": "Books",
+  "DatabaseTableName": "Books",
+  "Namespace": "Books",
+  "BaseClass": "FullAuditedAggregateRoot",
+  "PrimaryKeyType": "Guid",
+  "IsMultiTenant": false,
+  "ShouldCreateUserInterface": true,
+  "ShouldCreateBackend": true,
+  "ShouldAddMigration": true,
+  "ShouldUpdateDatabase": true,
+  "CreateTests": true,
+  "Properties": [
+    {
+      "Id": "93b778f6-4223-40c1-a8fc-8090cd669b42",
+      "Name": "Name",
+      "Type": "string",
+      "EnumType": "",
+      "EnumNamespace": "",
+      "EnumAngularImport": "shared/enums",
+      "IsNullable": false,
+      "IsRequired": false,
+      "MinLength": 1,
+      "MaxLength": 100,
+      "SortOrder": 0,
+      "SortType": 0,
+      "Regex": "",
+      "EmailValidation": false,
+      "EnumValues": null
+    }
+  ],
+  "NavigationProperties": [],
+  "PhysicalFileName": "Book.json"
+}
